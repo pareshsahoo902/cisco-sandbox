@@ -1,0 +1,13 @@
+.app {
+  padding: 30px;
+  background-color: #eee;
+  height: 100vh;
+  width: 100vw;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
