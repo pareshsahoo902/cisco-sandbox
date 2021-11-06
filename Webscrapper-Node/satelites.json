@@ -1,0 +1,617 @@
+[
+  {
+    "launchYear": "1975",
+    "name": "Aryabhatta",
+    "description": "India's first satellite."
+  },
+  {
+    "launchYear": "1979",
+    "name": "Bhaskara Sega-I",
+    "description": "India's first experimental remote sensing satellite that carried TV and microwave cameras."
+  },
+  {
+    "launchYear": "1979",
+    "name": "Rohini TechnologyPayload",
+    "description": "The First Indian launch vehicle Failed to achieve orbit. "
+  },
+  {
+    "launchYear": "1980",
+    "name": "Rohini RS-1",
+    "description": "India's first indigenous satellite launch, used for measuring the in-flight performance of the second experimental launch of SLV-3."
+  },
+  {
+    "launchYear": "1981",
+    "name": "Rohini RS-D1",
+    "description": "Launched by the first developmental launch of SLV-3, used for conducting remote sensing technology studies using a sensor payload."
+  },
+  {
+    "launchYear": "1981",
+    "name": "Apple",
+    "description": "First experimental communication satellite."
+  },
+  {
+    "launchYear": "1981",
+    "name": "Bhaskara-II",
+    "description": "Second experimental remote sensing satellite."
+  },
+  {
+    "launchYear": "1982",
+    "name": "INSAT-1A",
+    "description": "First operational multipurpose communication and meteorology satellite."
+  },
+  {
+    "launchYear": "1983",
+    "name": "Rohini RS-D2",
+    "description": "Identical to RS-D1."
+  },
+  {
+    "launchYear": "1983",
+    "name": "INSAT-1B",
+    "description": "Identical to INSAT-1A."
+  },
+  {
+    "launchYear": "1987",
+    "name": "SROSS-1",
+    "description": "It carried a payload for launch vehicle performance monitoring and for gamma-ray astronomy. Failed to achieve orbit. "
+  },
+  {
+    "launchYear": "1988",
+    "name": "IRS-1A",
+    "description": "India's first operational remote sensing satellite. "
+  },
+  {
+    "launchYear": "1988",
+    "name": "SROSS-2",
+    "description": "Carried remote sensing payload of the German space agency and gamma-ray astronomy payload."
+  },
+  {
+    "launchYear": "1988",
+    "name": "INSAT-1C",
+    "description": "Same as INSAT-1A."
+  },
+  {
+    "launchYear": "1990",
+    "name": "INSAT-1D",
+    "description": "Identical to INSAT-1A."
+  },
+  {
+    "launchYear": "1991",
+    "name": "IRS-1B",
+    "description": "Improved version of IRS-1A."
+  },
+  {
+    "launchYear": "1992",
+    "name": "INSAT-2DT",
+    "description": "Launched as Arabsat 1C."
+  },
+  {
+    "launchYear": "1992",
+    "name": "SROSS-C",
+    "description": "It carried gamma-ray astronomy and aeronomy payload."
+  },
+  {
+    "launchYear": "1992",
+    "name": "INSAT-2A",
+    "description": "The first satellite in the second-generation Indian-built INSAT-2 series."
+  },
+  {
+    "launchYear": "1993",
+    "name": "INSAT-2B",
+    "description": "The second satellite in the INSAT-2 series."
+  },
+  {
+    "launchYear": "1993",
+    "name": "IRS-1E",
+    "description": "Earth observation satellite. Failed to achieve orbit. "
+  },
+  {
+    "launchYear": "1994",
+    "name": "SROSS-C2",
+    "description": "Identical to SROSS-C."
+  },
+  {
+    "launchYear": "1994",
+    "name": "IRS-P2",
+    "description": "Launched by the second developmental flight of PSLV."
+  },
+  {
+    "launchYear": "1995",
+    "name": "INSAT-2C",
+    "description": "It has capabilities such as mobile satellite service, business communication and television outreach beyond Indian boundaries."
+  },
+  {
+    "launchYear": "1995",
+    "name": "IRS-1C",
+    "description": "Launched from Baikonur Cosmodrome."
+  },
+  {
+    "launchYear": "1996",
+    "name": "IRS-P3",
+    "description": "It carried a remote sensing payload and an X-ray astronomy payload."
+  },
+  {
+    "launchYear": "1997",
+    "name": "INSAT-2D",
+    "description": "Same as INSAT-2C."
+  },
+  {
+    "launchYear": "1997",
+    "name": "IRS-1D",
+    "description": "Same as IRS-1C. "
+  },
+  {
+    "launchYear": "1999",
+    "name": "INSAT-2E",
+    "description": "Multipurpose communication and meteorological satellite."
+  },
+  {
+    "launchYear": "1999",
+    "name": "OceanSat-1",
+    "description": "It carried an OCM and MSMR."
+  },
+  {
+    "launchYear": "2000",
+    "name": "INSAT-3B",
+    "description": "Multipurpose communication satellite. "
+  },
+  {
+    "launchYear": "2001",
+    "name": "GSAT-1",
+    "description": "Experimental satellite for the first developmental flight of GSLV-D1. Failed to complete its mission."
+  },
+  {
+    "launchYear": "2001",
+    "name": "TES",
+    "description": "It is considered a prototype for future Indian spy satellites. "
+  },
+  {
+    "launchYear": "2002",
+    "name": "INSAT-3C",
+    "description": "Augmented the INSAT capacity for communication and broadcasting "
+  },
+  {
+    "launchYear": "2002",
+    "name": "Kalpana-1",
+    "description": "First meteorological satellite built by ISRO."
+  },
+  {
+    "launchYear": "2003",
+    "name": "INSAT-3A",
+    "description": "Multipurpose communication satellite, similar to INSAT-2E and Kalpana-1."
+  },
+  {
+    "launchYear": "2003",
+    "name": "GSAT-2",
+    "description": "Experimental satellite for the second developmental test flight of GSLV."
+  },
+  {
+    "launchYear": "2003",
+    "name": "INSAT-3E",
+    "description": "Communication satellite to augment the existing INSAT System. "
+  },
+  {
+    "launchYear": "2003",
+    "name": "ResourceSat-1",
+    "description": "Intended to supplement and replace IRS-1C and IRS-1D. "
+  },
+  {
+    "launchYear": "2004",
+    "name": "GSAT-3",
+    "description": "India's first exclusive educational satellite."
+  },
+  {
+    "launchYear": "2005",
+    "name": "CartoSat-1",
+    "description": "Earth observation satellite."
+  },
+  {
+    "launchYear": "2005",
+    "name": "HamSat",
+    "description": "Micro-satellite built in collaboration with Indian and Dutch researchers.  "
+  },
+  {
+    "launchYear": "2005",
+    "name": "INSAT-4A",
+    "description": "Advanced satellite for direct-to-home television broadcasting services."
+  },
+  {
+    "launchYear": "2006",
+    "name": "INSAT-4C",
+    "description": "Geosynchronous communications satellite. Failed to achieve orbit."
+  },
+  {
+    "launchYear": "2007",
+    "name": "CartoSat-2",
+    "description": "Advanced remote sensing satellite"
+  },
+  {
+    "launchYear": "2007",
+    "name": "SRE-1",
+    "description": "An experimental satellite that was launched as a co-passenger with CARTOSAT-2. "
+  },
+  {
+    "launchYear": "2007",
+    "name": "INSAT-4B",
+    "description": "Identical to INSAT-4A."
+  },
+  {
+    "launchYear": "2007",
+    "name": "INSAT-4CR",
+    "description": "Identical to INSAT-4C."
+  },
+  {
+    "launchYear": "2008",
+    "name": "CartoSat-2A",
+    "description": "Identical to CARTOSAT-2."
+  },
+  {
+    "launchYear": "2008",
+    "name": "IMS-1",
+    "description": "Low-cost microsatellite imaging mission. Launched as co-passenger with CARTOSAT-2A."
+  },
+  {
+    "launchYear": "2008",
+    "name": "Chandrayaan-1",
+    "description": "India's first unmanned lunar probe."
+  },
+  {
+    "launchYear": "2009",
+    "name": "RISAT-2",
+    "description": "Radar imaging satellite. Launched as a co-passenger with ANUSAT. "
+  },
+  {
+    "launchYear": "2009",
+    "name": "AnuSat-1",
+    "description": "Research micro-satellite. It has since been retired. "
+  },
+  {
+    "launchYear": "2009",
+    "name": "OceanSat-2",
+    "description": "Continues mission of OceanSat-1. "
+  },
+  {
+    "launchYear": "2010",
+    "name": "GSAT-4",
+    "description": "Communications satellite with technology demonstrator features. Failed to achieve orbit."
+  },
+  {
+    "launchYear": "2010",
+    "name": "CartoSat-2B",
+    "description": "Identical to CartoSat-2A."
+  },
+  {
+    "launchYear": "2010",
+    "name": "StudSat",
+    "description": "India's first pico-satellite (weighing less than 1 kg). "
+  },
+  {
+    "launchYear": "2010",
+    "name": "GSAT-5P",
+    "description": "C-band communication satellite. Failed to achieve the mission. "
+  },
+  {
+    "launchYear": "2011",
+    "name": "ResourceSat-2",
+    "description": "Identical to ResourceSat-1. "
+  },
+  {
+    "launchYear": "2011",
+    "name": "YouthSat",
+    "description": "Indo-Russian stellar and atmospheric mini-satellite."
+  },
+  {
+    "launchYear": "2011",
+    "name": "GSAT-8 or INSAT-4G",
+    "description": "Communications Satellite"
+  },
+  {
+    "launchYear": "2011",
+    "name": "GSAT-12",
+    "description": "Augmented the capacity of the INSAT system for various communication services. "
+  },
+  {
+    "launchYear": "2011",
+    "name": "Megha-Tropiques",
+    "description": "Jointly developed by ISRO and the French CNES. "
+  },
+  {
+    "launchYear": "2011",
+    "name": "Jugnu",
+    "description": "Nano-satellite developed by IIT Kanpur."
+  },
+  {
+    "launchYear": "2011",
+    "name": "SRMSat",
+    "description": "Nano-satellite developed by SRM Institute of Science and Technology."
+  },
+  {
+    "launchYear": "2012",
+    "name": "RISAT-1",
+    "description": "India's first indigenous all-weather Radar Imaging Satellite."
+  },
+  {
+    "launchYear": "2012",
+    "name": "GSAT-10",
+    "description": "India's advanced communication satellite. "
+  },
+  {
+    "launchYear": "2013",
+    "name": "SARAL",
+    "description": "Joint Indo-French satellite mission for oceanographic studies."
+  },
+  {
+    "launchYear": "2013",
+    "name": "IRNSS-1A",
+    "description": "The first of seven satellites in the IRNSS navigational system."
+  },
+  {
+    "launchYear": "2013",
+    "name": "INSAT-3D",
+    "description": "It is a meteorological Satellite with advanced weather monitoring payloads."
+  },
+  {
+    "launchYear": "2013",
+    "name": "GSAT-7",
+    "description": "It is the advanced multi-band communication satellite dedicated to military use. "
+  },
+  {
+    "launchYear": "2013",
+    "name": "Mars Orbiter Mission (MOM) or Mangalyaan-1",
+    "description": "India's first Mars orbiter. "
+  },
+  {
+    "launchYear": "2014",
+    "name": "GSAT-14",
+    "description": "Intended to replace GSAT-3, and to augment the in-orbit capacity of Extended C and Ku-band transponders."
+  },
+  {
+    "launchYear": "2014",
+    "name": "IRNSS-1B",
+    "description": "It is the second of seven satellites in the IRNSS system."
+  },
+  {
+    "launchYear": "2014",
+    "name": "IRNSS-1C",
+    "description": "It is the third satellite in the IRNSS. "
+  },
+  {
+    "launchYear": "2014",
+    "name": "GSAT-16",
+    "description": "It has the highest number of transponders in a single satellite at that time (48 transponders)."
+  },
+  {
+    "launchYear": "2015",
+    "name": "IRNSS-1D",
+    "description": "It is the fourth satellite in the IRNSS. "
+  },
+  {
+    "launchYear": "2015",
+    "name": "GSAT-6",
+    "description": "Communication satellite that marks the success of indigenously developed upper stage cryogenic engine."
+  },
+  {
+    "launchYear": "2015",
+    "name": "Astrosat",
+    "description": "India's first dedicated multi-wavelength space observatory."
+  },
+  {
+    "launchYear": "2015",
+    "name": "GSAT-15",
+    "description": "Communications satellite."
+  },
+  {
+    "launchYear": "2016",
+    "name": "IRNSS-1E",
+    "description": "It is the fifth satellite in the IRNSS. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "IRNSS-1F",
+    "description": "It is the sixth satellite in the IRNSS. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "IRNSS-1G",
+    "description": "It is the seventh satellite in the IRNSS. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "Cartosat-2C",
+    "description": "Identical to CARTOSAT-2,2A and 2B. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "SathyabamaSat",
+    "description": "A micro-satellite designed and built by Sathyabama University, Chennai. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "Swayam-1",
+    "description": "A 1-U pico-satellite designed and built by the students of College of Engineering, Pune. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "INSAT-3DR",
+    "description": "An advanced meteorological satellite"
+  },
+  {
+    "launchYear": "2016",
+    "name": "Pratham",
+    "description": "A mini-satellite build by students and researchers at IIT, Mumbai. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "PISat",
+    "description": "A micro-satellite designed and built by the students of PES Institute of Technology, Bengaluru. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "ScatSat-1",
+    "description": "Miniature satellite to provide weather forecasting, cyclone prediction, and tracking services to India."
+  },
+  {
+    "launchYear": "2016",
+    "name": "GSAT-18",
+    "description": "The heaviest satellite owned by India at the time of its launch. "
+  },
+  {
+    "launchYear": "2016",
+    "name": "ResourceSat-2A",
+    "description": "Identical to Resourcesat-1 and Resourcesat-2. "
+  },
+  {
+    "launchYear": "2017",
+    "name": "CartoSat-2D",
+    "description": "ISRO holds the world record for launching the highest number of satellites by a single launch vehicle. "
+  },
+  {
+    "launchYear": "2017",
+    "name": "INS-1A",
+    "description": "One of 2 nano-satellites designed and manufactured by ISRO, as part of the constellation of 104 satellites launched in a single go. "
+  },
+  {
+    "launchYear": "2017",
+    "name": "INS-1B",
+    "description": "One of 2 nano-satellites designed and manufactured by ISRO, as part of the constellation of 104 satellites launched in a single go. "
+  },
+  {
+    "launchYear": "2017",
+    "name": "South Asia Satellite",
+    "description": "It is offered by India as a diplomatic initiative to its neighbouring countries (SAARC region) for communication, remote sensing, resource mapping and disaster management applications."
+  },
+  {
+    "launchYear": "2017",
+    "name": "GSAT-19",
+    "description": "It is the heaviest rocket (and the heaviest satellite) to be launched by ISRO from Indian soil."
+  },
+  {
+    "launchYear": "2017",
+    "name": "NIUSat",
+    "description": "It is built by the students of Noorul Islam University, Kanyakumari. "
+  },
+  {
+    "launchYear": "2017",
+    "name": "CartoSat-2E",
+    "description": " 7th satellite in the Cartosat series to be built by ISRO."
+  },
+  {
+    "launchYear": "2017",
+    "name": "GSAT-17",
+    "description": "India's 18th communication (and to date, its heaviest) satellite"
+  },
+  {
+    "launchYear": "2017",
+    "name": "IRNSS-1H",
+    "description": "First satellite to be co-designed and built-in collaboration with private sector assistance. Failed to achieve orbit. "
+  },
+  {
+    "launchYear": "2018",
+    "name": "CartoSat-2F",
+    "description": "6th satellite in the Cartosat series to be built by ISRO."
+  },
+  {
+    "launchYear": "2018",
+    "name": "MicroSat-TD",
+    "description": "It is a technology demonstrator and the forerunner for future satellites in this series. "
+  },
+  {
+    "launchYear": "2018",
+    "name": "INS-1C",
+    "description": "Third satellite in the Indian Nanosatellite series. It will carry MMX-TD Payload from SAC."
+  },
+  {
+    "launchYear": "2018",
+    "name": "GSAT-6A",
+    "description": "A high power S-band communication satellite. It will also provide a platform for developing technologies."
+  },
+  {
+    "launchYear": "2018",
+    "name": "IRNSS-II",
+    "description": "Eighth satellite of IRNSS."
+  },
+  {
+    "launchYear": "2018",
+    "name": "GSAT-29",
+    "description": "High-throughput Communication Satellite"
+  },
+  {
+    "launchYear": "2018",
+    "name": "HySIS",
+    "description": "Hyperspectral imaging services for agriculture, forestry, resource mapping, geographical assessment and military applications."
+  },
+  {
+    "launchYear": "2018",
+    "name": "ExseedSat-1",
+    "description": "India's first privately funded and built satellite."
+  },
+  {
+    "launchYear": "2018",
+    "name": "GSAT-11",
+    "description": "Heaviest Indian spacecraft in orbit to date."
+  },
+  {
+    "launchYear": "2018",
+    "name": "GSAT-7A",
+    "description": "Services for IAF and Indian Army."
+  },
+  {
+    "launchYear": "2019",
+    "name": "Microsat-R",
+    "description": "Suspected to have been destroyed in the 2019 Indian anti-satellite missile test."
+  },
+  {
+    "launchYear": "2019",
+    "name": "PS4 Stage attached with KalamSAT-V2",
+    "description": "Used PSLV's 4th stage as an orbital platform."
+  },
+  {
+    "launchYear": "2019",
+    "name": "GSAT-31",
+    "description": "Replacement of the ageing INSAT-4CR."
+  },
+  {
+    "launchYear": "2019",
+    "name": "EMISAT",
+    "description": "Electromagnetic intelligence to track any enemy radars for IAF."
+  },
+  {
+    "launchYear": "2019",
+    "name": "PS4 Stage attached with ExseedSat-2, AMSAT, ARIS and AIS payloads",
+    "description": "Utilization of the fourth stage directly as a satellite for experiments."
+  },
+  {
+    "launchYear": "2019",
+    "name": "RISAT-2B",
+    "description": "Successor to old RISAT-2."
+  },
+  {
+    "launchYear": "2019",
+    "name": "Orbiter of Chandrayaan-2",
+    "description": "India's second lunar exploration mission."
+  },
+  {
+    "launchYear": "2019",
+    "name": "Cartosat-3",
+    "description": "One of the optical satellites with the highest resolutions in the world."
+  },
+  {
+    "launchYear": "2019",
+    "name": "RISAT-2BR1",
+    "description": "Improved resolution of 0.35 metres."
+  },
+  {
+    "launchYear": "2020",
+    "name": "GSAT-30",
+    "description": "Replacement of INSAT-4A."
+  },
+  {
+    "launchYear": "2020",
+    "name": "EOS-01",
+    "description": "Space-based synthetic aperture imaging radar."
+  },
+  {
+    "launchYear": "2020",
+    "name": "CMS-01",
+    "description": "Extended C-band coverage for mainland India, Lakshadweep and Andaman & Nicobar Islands."
+  }
+]
