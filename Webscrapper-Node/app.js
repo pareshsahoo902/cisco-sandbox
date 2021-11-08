@@ -12,8 +12,9 @@ async function scrapeData() {
     const { data } = await axios.get(url);
     // Load HTML we fetched in the previous line
     const $ = cheerio.load(data);
-    // Select all the list items in plainlist class
+    //Creating a array to store all the scrapped data
     const statelites = []
+    //using cheerio to get all the tr(table row) in html
     $("table > tbody > tr").each((index, element) => {
 
 
@@ -22,10 +23,12 @@ async function scrapeData() {
       const launch = $(tds[0]).text();
       const name = $(tds[1]).text();
       const desc = $(tds[2]).text();
+      //Creating an object according to the td in html
       const tableRow = { launchYear: launch, name: name, description: desc }
       statelites.push(tableRow);
 
     });
+    //saving all data in the satelites.json file
     fs.writeFile("satelites.json", JSON.stringify(statelites, null, 2), (err) => {
       if (err) {
         console.error(err);
