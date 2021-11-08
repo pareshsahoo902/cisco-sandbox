@@ -1,17 +1,20 @@
+//importing all the modules required 
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
 
 
-//app config
+//Configure your app here
 const app = express();
 const PORT = process.env.PORT || 8001;
+//Connect with mongoDB here
 const connectionURL = "mongodb+srv://Admin:Admin123@cluster0.unff6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 
 //middleware
 app.use(express.json())
+//Include Cors for cross orgin access
 app.use(cors())
 
 
@@ -21,7 +24,7 @@ mongoose.connect(connectionURL, {
     useUnifiedTopology: true
 })
 
-
+//Create a Schema for contact using mongoose
 const contact = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     name: String,
@@ -39,8 +42,9 @@ app.get('/api/', (req, res) => {
     res.status(200).send("CONTACT API BASE")
 });
 
-
+//Endpoint for adding a contact
 app.post('/api/addContact', (req, res) => {
+    //Check if same contact already exists
     Contact.find({ telephone: req.body.telephone })
         .exec()
         .then(contact => {
@@ -49,7 +53,7 @@ app.post('/api/addContact', (req, res) => {
                     message: 'Number Already Exists'
                 })
             } else {
-
+                //Create a contact object and save it in mongoDB
                 const contactDeatils = new Contact({
                     _id: new mongoose.Types.ObjectId(),
                     name: req.body.name,
@@ -76,9 +80,10 @@ app.post('/api/addContact', (req, res) => {
 })
 
 
+//Endpoint for getting all contacts
 
 app.get('/api/getContacts', (req, res) => {
-
+    //find all contacts in DB
     Contact.find((err, users) => {
         if (err) {
             res.status(500).send(err)
@@ -92,9 +97,10 @@ app.get('/api/getContacts', (req, res) => {
 
 })
 
+//Endpoint for getting a contact by id
 
 app.get('/api/getContacts/:id', (req, res) => {
-
+       //adding filter to find a contact by iD
     Contact
         .findById(req.params.id)
         .then(doc => {
@@ -109,10 +115,11 @@ app.get('/api/getContacts/:id', (req, res) => {
 })
 
 
-
+//Endpoint for updating a contact by id
 app.put('/api/contact/:id', (req, res) => {
-
+    //get the contact by id to update
     const options = { returnNewDocument: true };
+    //findoneandupdate updates the particular contact with new data
     Contact.findOneAndUpdate({ _id: req.params.id }, req.body, options)
         .then(contact => {
             if (!contact) {
@@ -131,7 +138,7 @@ app.put('/api/contact/:id', (req, res) => {
         })
 })
 
-
+//Endpoint for deleting a contact by id
 app.delete('/api/contact/:id', (req, res) => {
 
     const options = { returnNewDocument: true };
@@ -153,6 +160,6 @@ app.delete('/api/contact/:id', (req, res) => {
         })
 })
 
-
+//start the server to listen for the request
 //listner
 app.listen(PORT, () => console.log(`listning on local host ${PORT}`))
