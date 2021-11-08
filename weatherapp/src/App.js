@@ -1,11 +1,12 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
-import { Button, Card, Form } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Button, Card, Form } from "react-bootstrap"; //Component from react-bootstrap we installed
+import "bootstrap/dist/css/bootstrap.min.css"; //import bootstrap for enhanced UI
 
 function SearchForm({ onSubmit }) {
-  const [value, setValue] = React.useState("");
+  const [value, setValue] = React.useState(""); //useState for state managment ReactHooks
 
+  //it handles the submit in the form on submit press it sends data to the parent Component using callback
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!value) return;
@@ -36,10 +37,13 @@ function SearchForm({ onSubmit }) {
 }
 
 function App() {
-  const [cityName, setcityName] = useState("");
-  const [weatherDeatils, setWeatherDetails] = useState(null);
+  const [cityName, setcityName] = useState("");  //useState for state managment for the cityName from Form
+  const [weatherDeatils, setWeatherDetails] = useState(null);  //useState for state managment for weatherData 
+  //useEffect ReactHooks : it is used to run a set of codes on component load
   useEffect(() => {
     if (cityName) {
+      //fetch function is used to call API or get data from URL
+      //appid is the api key you need to generate from the openweathermap.org current weather data API
       fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=df7edfb9dd04675cc1c7d9a38830b9a4`
       )
@@ -69,6 +73,7 @@ function App() {
         <SearchForm onSubmit={onSubmit}/>
         <div>
           <Card>
+            {//if wetherDeatils is present show the card}
             {weatherDeatils && (
               <Card.Body>
                 <div className="weather">
