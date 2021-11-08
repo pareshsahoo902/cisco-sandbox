@@ -28,11 +28,11 @@ class SimpleIntrest extends StatefulWidget {
 class _SimpleIntrestState extends State<SimpleIntrest> {
   var _formKey = GlobalKey<FormState>();
   final _minimumpadding = 10.0;
-  var _currencies = ['Rupees', 'Dollar', 'Pound'];
-  var _currentSelectedItem = 'Rupees';
-
+  var _currency = 'Bucks';
+//empty var to store the result
   var displayResult = "";
 
+  //adding textController
   TextEditingController pricipal = TextEditingController();
   TextEditingController rate = TextEditingController();
   TextEditingController term = TextEditingController();
@@ -183,6 +183,7 @@ class _SimpleIntrestState extends State<SimpleIntrest> {
     );
   }
 
+  //this function calculates the result and update the value
   String _calculatorResult() {
     double p = double.parse(pricipal.text);
     double r = double.parse(rate.text);
@@ -190,10 +191,10 @@ class _SimpleIntrestState extends State<SimpleIntrest> {
 
     double simpleIntrest = p + (p * r * t) / 100;
     String result =
-        "After $t  years, your investement will be worth $simpleIntrest $_currentSelectedItem ";
+        "After $t  years, your investement will be worth $simpleIntrest $_currency ";
     return result;
   }
-
+//on reset click this function clear all the feilds in the textinput
   void _reset() {
     pricipal.text = "";
     rate.text = "";
