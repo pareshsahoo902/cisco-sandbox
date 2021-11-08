@@ -1,8 +1,10 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+//http package for network calls
 import 'package:http/http.dart' as http;
 
+//Create a ModelClass FlagData to store response of the API
 class FlagData {
   late bool error;
   late String msg;
@@ -10,6 +12,7 @@ class FlagData {
 
   FlagData({required this.error, required this.msg, required this.data});
 
+  //fromJson & toJson function helps in parsing the api data
   FlagData.fromJson(Map<String, dynamic> json) {
     error = json['error'];
     msg = json['msg'];
@@ -53,6 +56,7 @@ class Data {
   }
 }
 
+//calling the api using Future as it is a async func
 Future<FlagData> fetchData() async {
   final response = await http.get(
       Uri.parse('https://countriesnow.space/api/v0.1/countries/flag/unicode'));
@@ -84,7 +88,7 @@ void main() {
         body: MyApp()),
   ));
 }
-
+//create a stateful widget
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
 
