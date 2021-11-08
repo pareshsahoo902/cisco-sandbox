@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react';
-import { Button, Card, Form } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Card, Form } from 'react-bootstrap'; //Component from react-bootstrap we installed
+import 'bootstrap/dist/css/bootstrap.min.css';//import bootstrap for enhanced UI
 
+//Component build for a single TODO Item
 function Todo({ todo, index, markTodo, removeTodo }) {
   return (
     <div
@@ -20,8 +21,8 @@ function Todo({ todo, index, markTodo, removeTodo }) {
 
 
 function FormTodo({ addTodo }) {
-  const [value, setValue] = React.useState("");
-
+  const [value, setValue] = React.useState("");   //useState for state managment ReactHooks
+  //it handles the submit in the form on submit press it sends data to the parent Component using callback
   const handleSubmit = e => {
     e.preventDefault();
     if (!value) return;
@@ -47,23 +48,27 @@ function FormTodo({ addTodo }) {
 
 function App() {
 
+  //This is a sample TODO In a list of TODO
   const [todos, setTodos] = React.useState([
     {
       text: "This is a sampe todo",
       isDone: false
     }
   ]);
+  //This function handles adding todo in the list
   const addTodo = text => {
     const newTodos = [...todos, { text }];
     setTodos(newTodos);
   };
 
+  //once todo is done it updates the list to mark it done
   const markTodo = index => {
     const newTodos = [...todos];
     newTodos[index].isDone = true;
     setTodos(newTodos);
   };
 
+  //on delete of a todo this function delete the todo
   const removeTodo = index => {
     const newTodos = [...todos];
     newTodos.splice(index, 1);
